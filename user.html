@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- google fonts - Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap"
+    rel="stylesheet" />
+  <!-- icon lib -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link rel="stylesheet" href="user.css" />
+  <!-- css files -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- swiperjs cdn -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+  <!-- logo icon -->
+  <link rel="icon" href="./images/logo-removebg-preview.png" type="image/icon type">
+  <!-- title -->
+  <title>HCMUT hospital</title>
+
+  <style>
+    .header_right-image .swiper {
+      width: 440px;
+      height: 420px;
+    }
+
+    .header_right-image .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .header_right-image .swiper-slide img {
+      width: 100%;
+      height: 100%;
+    }
+
+    @media screen and (max-width : 1024px) {
+      .header_right-image .swiper {
+        width: 440px;
+        height: 420px;
+      }
+    }
+
+    @media screen and (max-width : 600px) {
+      .header_right-image .swiper {
+        width: 280px;
+        height: 280px;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <nav>
+    <div class="container nav_container">
+      <a href="index.html">
+        <h4>HCMUT HOSPITAL</h4>
+      </a>
+      <ul class="nav_menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="teamreport.html">Team report</a></li>
+        <li><a href="form.html">Medical examination</a></li>
+      </ul>
+      <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+      <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+    </div>
+  </nav>
+  <header>
+    <div class="container header_container">
+      <div class="header_left">
+        <h1>Welcome to HCMUT Hospital</h1>
+        <p>Get the best medical care from our experienced professionals.</p>
+        <a href="form.html" class="btn btn-primary">Book an appointment</a>
+      </div>
+      <div class="header_right-image">
+        <!-- Slider or image showcasing hospital facilities or services -->
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <!-- Your slider/image items -->
+            <div class="swiper-slide">
+              <img src="image1.jpg" alt="Hospital Facilities">
+            </div>
+            <div class="swiper-slide">
+              <img src="image2.jpg" alt="Medical Services">
+            </div>
+            <!-- Add more slides as needed -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="categories">
+    <div class="container categories_container">
+      <div class="categories_left">
+        <h2>Our Services</h2>
+        <p>Explore our wide range of medical services provided by our expert staff.</p>
+      </div>
+      <div class="categories_right">
+        <div class="category">
+          <div class="category_icon">
+            <i class="uil uil-stethoscope"></i>
+          </div>
+          <h5>Medical Consultation</h5>
+          <p>Consult with our specialized doctors for personalized medical advice.</p>
+        </div>
+        <!-- Add more categories as needed -->
+      </div>
+    </div>
+  </section>
+
+  <section class="courses">
+    <div class="container courses_container">
+      <div class="course">
+        <img src="course1.jpg" alt="Course 1" class="course_image">
+        <div class="course_info">
+          <h4>First Aid Training</h4>
+          <p>Learn essential first aid skills from our certified instructors.</p>
+        </div>
+      </div>
+      <!-- Add more courses as needed -->
+    </div>
+  </section>
+
+  <section class="faqs">
+    <div class="container faqs_container">
+      <div class="faq">
+        <div class="faq_icon">
+          <i class="uil uil-question-circle"></i>
+        </div>
+        <div class="faq_info">
+          <h4>Do you offer emergency services?</h4>
+          <p>Yes, we have 24/7 emergency services available for our patients.</p>
+        </div>
+      </div>
+      <!-- Add more FAQs as needed -->
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container footer_container">
+      <div class="footer_1">
+        <a href="index.html" class="footer_logo">
+          <h4>HCMUT HOSPITAL</h4>
+        </a>
+        <p>
+
+        </p>
+      </div>
+      <div class="footer_2">
+        <h4></h4>
+        <ul class="permalinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Course</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Login </a></li>
+          <li><a href="help.html">help</a></li>
+        </ul>
+      </div>
+      <div class="footer_3">
+        <ul class="privacy">
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Terms and Conditions</a></li>
+          <li><a href="">Refund Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer_4">
+        <h4>Contact Us At:</h4>
+        <div>
+          <p>Địa chỉ</p>
+          <p>emai</p>
+          <p>
+            số điện thoại
+          </p>
+        </div>
+        <ul class="footer_socials">
+          <li>
+            <a href=""><i class="uil uil-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="uil uil-instagram-alt"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="uil uil-twitter"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="uil uil-linkedin-alt"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer_copyright">
+      <small>Made by <a href="">Student of hcmut</a> &
+        <a href="">Thái Quỳnh Đạt</a>
+      </small>
+    </div>
+  </footer>
+  <script src="main.js"> </script>
+</body>
+
+</html>

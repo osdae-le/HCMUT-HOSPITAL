@@ -1,0 +1,29 @@
+
+
+.contact_container{
+  
+    background:WHITE;
+    padding: 5rem;
+    height: 100rem;
+    margin: 3rem auto;
+    border-radius: 1rem ;
+}
+
+
+@media screen and (max-width : 600px){
+    .contact_container{
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        margin-top: 0;
+        padding: 1rem;
+    }
+    form{
+        margin: 0 1.5rem 3rem;
+    }
+    .form_name{
+        flex-direction: column;
+    }
+    .form_name input[type="text"]{
+        width: 100%;
+    }
+}
